@@ -35,7 +35,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
         - 타일맵은 일반적으로 0부터 시작하는 z 값으로 시작하며, z 값이 증가할수록 확대 수준이 증가한다.
         - 타일맵은 일반적으로 0부터 시작하는 x, y 값으로 시작
 
-ㅎ ㅏ.. 벌써 빡세 ....
+ㅎ ㅏ.. 벌써 빡세 .... 망할 Leaflet type 도 적용 안돼? ㅠㅠ
 
 현재 작업된 버전은 Google, kakao 의 tile map을 가져와서 leaflet에 적용했다.
 

@@ -1,5 +1,4 @@
 import * as L from 'leaflet';
-import {Bounds, LatLng, LatLngExpression, LatLngLiteral, Point, PointExpression} from "leaflet";
 
 declare module 'leaflet' {
     namespace Proj {
