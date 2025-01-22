@@ -13,6 +13,8 @@ const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
   {
     rules: {
+      // any 타입 허용
+      "@typescript-eslint/no-explicit-any": "off",
       // 기본 no-unused-vars 규칙 비활성화
       "no-unused-vars": "off",
       // @typescript-eslint/no-unused-vars 규칙 설정

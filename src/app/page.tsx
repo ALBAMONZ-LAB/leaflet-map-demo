@@ -1,6 +1,6 @@
 "use client";
+import { CustomArrayMarkersType } from "@/types/map";
 import dynamic from "next/dynamic";
-import { CustomArrayMarkersType } from "./components/KakaoTileMap";
 
 const Map = dynamic(() => import("./components/Map"), { ssr: false });
 const KakaoTileMap = dynamic(() => import("./components/KakaoTileMap"), { ssr: false });
@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <div>
       <main>
-        {/*<Map />*/}
+        <Map currentIconOption={{ iconUrl: "/special_albamonz.svg", iconSize: [32, 32] }} markers={customMarkers} />
         <KakaoTileMap currentIconOption={{ iconUrl: "/special_albamonz.svg", iconSize: [32, 32] }} markers={customMarkers} />
         {/*<NaverTileMap />*/}
       </main>
